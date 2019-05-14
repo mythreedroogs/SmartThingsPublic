@@ -210,10 +210,10 @@ metadata {
         }
 
         valueTile("reportedCoolingSetpoint", "device.reportedCoolingSetpoint", height: 1, width: 1, inactiveLabel: true, decoration: "flat") {
-            state "reportedCoolingSetpoint", label:'${currentValue}° cool', unit:"C", backgroundColor:"#ffffff"
+            state "reportedCoolingSetpoint", label:'${currentValue}° cool', unit:"F", backgroundColor:"#ffffff"
         }
         valueTile("reportedHeatingSetpoint", "device.reportedHeatingSetpoint", height: 1, width: 1, inactiveLabel: true, decoration: "flat") {
-            state "reportedHeatingSetpoint", label:'${currentValue}° heat', unit:"C", backgroundColor:"#ffffff"
+            state "reportedHeatingSetpoint", label:'${currentValue}° heat', unit:"F", backgroundColor:"#ffffff"
         }
         valueTile("heatingSetpoint", "device.heatingSetpoint", height: 1, width: 1, inactiveLabel: false, decoration: "flat") {
             state "heatingSetpoint", label:'${currentValue}° heat', unit:"F", backgroundColor:"#ffffff"
